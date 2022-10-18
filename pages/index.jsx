@@ -49,7 +49,7 @@ export default function Home({ data }) {
       <div className={styles.homepage}>
         <div className={styles.introduction}>
           <div className={styles.info}>
-            <h1>Hey! I'm <span>Shekine</span>. An Art major from Greece!</h1>
+            <h1>Hey! I&apos;m <span>Shekine</span>. An Art major from Greece!</h1>
             <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit error totam dicta possimus iusto ducimus?</h3>
             <Link href='/about'><a className='btn-primary'>About me</a></Link>
             <Link href='/projects'><a className='btn-secondary'>Projects</a></Link>
@@ -64,13 +64,13 @@ export default function Home({ data }) {
         <div className={styles.bannerTitle}>
           <h1 >Here! You can see some of my finest work!</h1>
           <div className={styles.logoImage} >
-            <Image src='/logo-icon.png' width={30} height={75} />
+            <Image src='/logo-icon.png' width={30} height={75} alt=''/>
           </div>
         </div>
         <div className={styles.homeFrontBanner}>
 
           {data.map(filterdArt => (
-            <HomeFrontBanner key={filterdArt.sys.id} work={filterdArt} />
+            <HomeFrontBanner key={filterdArt.sys.id} work={filterdArt} alt=''/>
             
             ))}
         </div>

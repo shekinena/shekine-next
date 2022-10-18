@@ -52,7 +52,7 @@ const About = ({ data }) => {
                     <Link href='/thesis'><a className="btn-primary">Thesis</a></Link>
                 </div>
                 <div className={styles.infoImage}>
-                    <Image src='/logo.png' width={1200} height={304} />
+                    <Image src='/logo.png' width={1200} height={304} alt=''/>
                 </div>
             </div>
             <div className={styles.details}>
