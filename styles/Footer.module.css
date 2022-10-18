@@ -1,0 +1,62 @@
+.footer {
+    padding: 2rem 0 0 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Site map */
+
+.footer > div {
+    margin: 0.5rem;
+}
+
+.footer >div > h4 {
+    text-decoration: underline;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.footer >div > ul {
+    font-size: 0.9rem;
+    padding: 0;
+    text-align: center;
+}
+
+.footer >div > ul > li {
+    letter-spacing: 1px;
+    align-items: center;
+    margin-bottom: 0.3rem ;
+
+}
+
+/* Contact */
+.contact > li> h5{
+    margin: 0;
+    padding: 0;
+}
+/* Social */
+
+/* .faIcons {
+    margin: 0 auto;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+*/
+
+.faIcons > a {
+    margin: 1rem;
+}
+
+
+@media (max-width: 840px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}

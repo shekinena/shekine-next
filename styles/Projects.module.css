@@ -1,0 +1,20 @@
+.projectsTitle{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+.projects {
+    margin: 4rem auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 840px){
+    .projects{
+        width: 100%;
+    }
+}
