@@ -1,0 +1,53 @@
+.projects {
+    margin: 2rem auto;
+}
+
+.projects > h1 {
+    text-align: center;
+}
+.year {
+    max-width: 70%;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1rem;
+    /* color: white; */
+    background-color: #ffffff;
+
+}
+
+.year > h1 {
+    padding: 0;
+    padding-left: 1rem;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.publication {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    max-width: 100%;
+}
+
+.content {
+    /* width: 50%; */
+    color: #ffffff;
+    background-color: #353535;
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text > h5 {
+    text-decoration: underline;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 840px){
+    .year {
+        max-width: 90%;
+    }
+}

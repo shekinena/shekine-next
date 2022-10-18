@@ -55,7 +55,7 @@ export default function Home({ data }) {
             <Link href='/projects'><a className='btn-secondary'>Projects</a></Link>
           </div>
           <div className={styles.image}>
-            <Image src='/about-person-shekine-1.jpg' width={350} height={351} />
+            <Image src='/about-person-shekine-1.jpg' width={350} height={351} alt=''/>
           </div>
         </div>
       </div>
